@@ -48,7 +48,7 @@ fun LoginScreen(navController: NavController) {
         Button(
             onClick = {
                 // Aquí iría tu lógica de login
-                // navController.navigate("home")
+                navController.navigate("home")
             },
             modifier = Modifier.fillMaxWidth()
         ) {
